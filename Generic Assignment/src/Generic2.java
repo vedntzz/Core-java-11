@@ -2,7 +2,7 @@ import java.util.*;
 public class Generic2 {
     public static void main(String[] args)
     {
-        HashMap<Integer,Double> map=new HashMap<Integer,Double>();
+        HashMap<Integer,Double> map=new HashMap<>();
         map.put(10, 10.00);
         map.put(20, 20.00);
         map.put(30, 30.00);

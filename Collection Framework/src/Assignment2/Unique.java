@@ -1,9 +1,6 @@
 package Assignment2;
-
 import java.util.Objects;
-
 public class Unique {
-
         int unique;
         public Unique( int unique) {
             super();

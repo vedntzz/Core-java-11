@@ -15,13 +15,13 @@ public class assign7ques1 {
         contac d2 = new contac("shivam", "vish@gmail", "male");
         contac d3 = new contac("piyus", "vishb@gmail", "male");
 
-        Map<Phonenumber, contac> mape = new TreeMap<>();
-        mape.put(e1, d1);
-        mape.put(e2, d2);
-        mape.put(e3, d3);
+        Map<Phonenumber, contac> mappe = new TreeMap<>();
+        mappe.put(e1, d1);
+        mappe.put(e2, d2);
+        mappe.put(e3, d3);
 
         Set<Map.Entry<Phonenumber, contac>> list = mape.entrySet();
-        for (Map.Entry<Phonenumber, contac> list2 : list) {
+        for (Map.Entry<Phonenumber, contac> list2 : list) { // i
             System.out.println(list2.getKey());
             System.out.println(list2.getValue());
             System.out.println("key" + list2.getKey() + "value" + list2.getValue());

@@ -25,7 +25,7 @@ public class ArithmaticException {
             System.out.println(e1.div());
         }
         catch (ArithmeticException e){
-            System.out.println("Dont divide with zero");
+            System.out.println("Ullu ka patha");
         }
     }
 }

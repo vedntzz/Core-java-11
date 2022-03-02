@@ -13,7 +13,7 @@ public class Main {
     }
     public int totalEmployeesSalary(ArrayList<Integer> employeeSalaries){
         System.out.println(employeeSalaries);
-        return total;
+        return 0;
 
     }
 
@@ -38,8 +38,6 @@ public class Main {
             salary=salary+incentive;
             al2.add(salary);
             //System.out.println("Total Salary of Manager is"+salary);
-
-
             return 0;
 
 

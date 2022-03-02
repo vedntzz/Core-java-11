@@ -4,23 +4,17 @@ abstract class Persistence {
 class FilePersistence extends Persistence{
     @Override
     public String persist(){
-        return "File persistance";
+        System.out.println("File persistence");
+        return null;
     }
+
 }
 class DatabasePersistence extends Persistence{
     @Override
     public String persist() {
-        return "Data persistence";
+        System.out.println("Data persistence");
+        return null;
     }
-}
-public class AssignmentQ6 {
-    public static void main(String[] args) {
-
-        Persistence persistence = new Persistence() {
-        };
-
-    }
-
 }
 
 
